@@ -1,0 +1,39 @@
+1. Finding errors:
+a) Constructor Book(int) is already defined, i.e., a Constructor that takes one integer as parameter is already defined, a similar type of constructors cannot be defined more than once
+b) The method setName should have a return type since a return statement is used.
+   A setter method is typically not intended to return anything. The name of the method can be changed to getName instead.
+
+2. Finding errors:
+a.) incompatible return types, unexpected return value, i.e., the method "void getName()" should not return any values but is returning a String value.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
