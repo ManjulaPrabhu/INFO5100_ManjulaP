@@ -6,7 +6,11 @@ b) The method setName should have a return type since a return statement is used
 2. Finding errors:
 a.) incompatible return types, unexpected return value, i.e., the method "void getName()" should not return any values but is returning a String value.
 
+3. Please refer SimpleVowelRemover.java
 
+4. Please refer AnagramChecker.java
+
+5. Please refer Calculator.java
 
 
 
