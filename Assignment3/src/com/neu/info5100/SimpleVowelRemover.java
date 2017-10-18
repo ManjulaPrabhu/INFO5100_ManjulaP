@@ -7,6 +7,7 @@ import java.util.Set;
 
 public class SimpleVowelRemover {
 
+    // Consider upper case vowels
     static final Set<Character> vowelSet = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
 
     public static void main(String[] args) {
