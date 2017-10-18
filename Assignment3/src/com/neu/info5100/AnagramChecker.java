@@ -25,6 +25,7 @@ public class AnagramChecker {
                 break;
             }
         }
+        // Consider test case "aaacc" and "aaccc"
         return (stringLength == inputString1.length()) ? true : false;
     }
 }
