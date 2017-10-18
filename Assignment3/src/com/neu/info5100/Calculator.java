@@ -138,11 +138,13 @@ class MetricConverter {
 }
 
 class QuadraticSolution {
+    // Maybe it's better to name operand1/2/3 as a, b, c for readability
     double[] findQuadraticSolution(int operand1, int operand2, int operand3) {
 
         BasicArithmeticOperations simpleCalculator = new BasicArithmeticOperations();
         double[] quadraticSolution = new double[2];
         double numeratorResult = 0;
+        // No need to have a for loop here, simplify the logic for this part.
         for (int i = 0; i < 2; i++) {
             //b^2
             double squareResult = simpleCalculator.square(operand2);
@@ -151,6 +153,7 @@ class QuadraticSolution {
             int multiplyResult = simpleCalculator.multiply(multiplyProduct1, operand3);
 
             //b^2 -4ac
+            // What if b^2 - 4ac < 0?
             double subtractResult = simpleCalculator.subtract(squareResult, multiplyResult);
             //sqrt(b^2 -4ac)
             double squareRootResult = simpleCalculator.squareRoot(subtractResult);
@@ -160,8 +163,9 @@ class QuadraticSolution {
                 numeratorResult = simpleCalculator.add(squareRootResult, (double) operand2);
                 numeratorResult *= -1;
             }
+            // What if a == 0?
             int denominatorResult = simpleCalculator.multiply(2, operand1);
-
+    
             double factor = simpleCalculator.divide(numeratorResult, denominatorResult);
             quadraticSolution[i] = factor;
         }
