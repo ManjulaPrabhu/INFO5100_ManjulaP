@@ -1,0 +1,127 @@
+Below is the Output generated for the program:
+======================== Dealing Cards ==============================
+    Player 0 shortest 1
+6 of clubs
+8 of clubs
+9 of clubs
+Jack of clubs
+4 of diamonds
+King of diamonds
+Jack of hearts
+3 of spades
+4 of spades
+Queen of spades
+    Player 1 shortest 0
+Ace of clubs
+2 of diamonds
+3 of diamonds
+6 of diamonds
+Ace of diamonds
+4 of hearts
+5 of hearts
+8 of hearts
+Queen of hearts
+2 of spades
+    Player 2 shortest 1
+3 of clubs
+4 of clubs
+Queen of clubs
+5 of diamonds
+Jack of diamonds
+3 of hearts
+6 of hearts
+King of hearts
+6 of spades
+10 of spades
+    Player 3 shortest 0
+5 of clubs
+King of clubs
+2 of hearts
+7 of hearts
+10 of hearts
+Ace of hearts
+5 of spades
+Jack of spades
+King of spades
+Ace of spades
+    Player 4 shortest 3
+2 of clubs
+7 of clubs
+10 of clubs
+7 of diamonds
+8 of diamonds
+9 of diamonds
+Queen of diamonds
+9 of hearts
+8 of spades
+9 of spades
+========================= Game Begins ==============================
+========================== Trick-0 ==============================
+Player 4         2 of clubs
+Player 0         6 of clubs
+Player 1         Ace of clubs
+Player 2         3 of clubs
+Player 3         5 of clubs
+Undelt card       7 of spades
+Undelt card       10 of diamonds
+========================== Trick-1 ==============================
+Player 1         2 of spades
+Player 2         6 of spades
+Player 3         5 of spades
+Player 4         8 of spades
+Player 0         4 of spades
+========================== Trick-2 ==============================
+Player 4         9 of spades
+Player 0         3 of spades
+Hearts is now Broken
+Player 1         Queen of hearts
+Player 2         10 of spades
+Player 3         Jack of spades
+========================== Trick-3 ==============================
+Player 3         King of clubs
+Player 4         7 of clubs
+Player 0         8 of clubs
+Player 1         8 of hearts
+Player 2         4 of clubs
+========================== Trick-4 ==============================
+Player 3         King of spades
+Player 4         9 of hearts
+Player 0         Queen of spades
+Player 1         5 of hearts
+Player 2         King of hearts
+========================== Trick-5 ==============================
+Player 3         Ace of spades
+Player 4         10 of clubs
+Player 0         Jack of hearts
+Player 1         4 of hearts
+Player 2         6 of hearts
+========================== Trick-6 ==============================
+Player 3         2 of hearts
+Player 4         7 of diamonds
+Player 0         9 of clubs
+Player 1         2 of diamonds
+Player 2         3 of hearts
+========================== Trick-7 ==============================
+Player 2         Queen of clubs
+Player 3         Ace of hearts
+Player 4         8 of diamonds
+Player 0         Jack of clubs
+Player 1         3 of diamonds
+========================== Trick-8 ==============================
+Player 2         5 of diamonds
+Player 3         10 of hearts
+Player 4         9 of diamonds
+Player 0         4 of diamonds
+Player 1         6 of diamonds
+========================== Trick-9 ==============================
+Player 4         Queen of diamonds
+Player 0         King of diamonds
+Player 1         Ace of diamonds
+Player 2         Jack of diamonds
+Player 3         7 of hearts
+========================== SCORES ==============================
+Player 0 score 0
+Player 1 score 1
+Player 2 score 3
+Player 3 score 21
+Player 4 score 1
