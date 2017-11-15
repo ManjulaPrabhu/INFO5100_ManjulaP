@@ -98,4 +98,4 @@ class RockPaperScissorsGame {
         System.out.println(p.fight(r) + " , " + r.fight(p));
         System.out.println(r.fight(s) + " , " + s.fight(r));
     }
-}
+} 
