@@ -104,5 +104,4 @@ public class ATMTest {
         Assert.assertFalse(ATMOperations.passwordHelper(ACCOUNT_NUMBER, WRONG_PASSWORD));
     }
 
-
 }
