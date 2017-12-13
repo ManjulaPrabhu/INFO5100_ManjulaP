@@ -81,7 +81,6 @@ public class MyJson {
 
         fwriter.write(carInfo);
 
-
     }
 
 }
