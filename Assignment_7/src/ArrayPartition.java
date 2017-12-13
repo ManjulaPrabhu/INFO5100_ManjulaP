@@ -41,4 +41,4 @@ public class ArrayPartition {
 
         return isSubsetSumEqual(input,size-1,sum) || isSubsetSumEqual(input, size-1, sum-input[size-1]);
     }
-}
+} 
